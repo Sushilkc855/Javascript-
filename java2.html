@@ -17,11 +17,35 @@
     
 
     <script>
+                  let number1 = 28;
+        
+        let number2 = 41;
+         console.log(number1+number2);
+        
     //var points = new Array(40, 100, 1, 5, 25, 10);
+        
     let points = [1, 2, 3, 4, 5];
         
  console.log(points);
  document.writeln(points);
+        
+         for(let x = 0; x < 5; x++){  
+               
+                 document.writeln( "<br />"+ points[x]*5 );
+            console.log(points[x]*5);
+
+        }
+        
+       
+        var a = [1,2,3]; // saw this online
+
+var b = a.map(function(x){
+    return x * 5;
+});
+
+console.log(b);
+        
+      
     </script>
 
   </body>
